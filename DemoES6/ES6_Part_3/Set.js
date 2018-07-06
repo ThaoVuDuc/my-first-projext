@@ -1,0 +1,12 @@
+var mySet = new Set();
+mySet.add(1);
+mySet.add(2);
+mySet.add(3);
+mySet.add(3);
+mySet.add("ThaoVuDuc");
+var o = {a: 4, b: 5};
+mySet.add(o);
+console.log(mySet.size);
+console.log(mySet.has(1));
+mySet.delete(2);
+console.log(mySet);
